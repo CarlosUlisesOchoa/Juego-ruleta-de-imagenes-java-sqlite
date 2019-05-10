@@ -6,6 +6,7 @@ PD: This game has two languages availables: spanish and english
 </p> 
 
 <br>
+
 #### <a href="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/tree/spanish_version" target="_BLANK">----> Versión en español <------</a>
 
 <br>
@@ -22,6 +23,7 @@ PD: This game has two languages availables: spanish and english
 
 ---
 <br>
+
 ## Introduction
 
 [![Current Version](https://img.shields.io/badge/version-1.0.4-green.svg)](https://github.com/JoseJesusOchoaTorres/portfolio) 
@@ -31,6 +33,7 @@ PD: This game has two languages availables: spanish and english
 This simple game was developed as a school project, I publish it in case it serves to someone
 
 <br>
+
 ## Features
 
 As I said before, it is a really simple game, it has the following features
@@ -54,6 +57,7 @@ As I said before, it is a really simple game, it has the following features
 * SQLite
 
 <br>
+
 ## How to play
 
 ![How to play](https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/english_version/project%20images/example.gif?raw=true "How to play")
@@ -77,8 +81,12 @@ Visit my website [Carlos Ulises](http://www.carlosulises.ml)
 <br>
 
 #### My social media
+
 <a href="https://www.facebook.com/UliGibson"><img src="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/english_version/project%20images/fb.png?raw=true" width="70"></a> <a href="https://www.linkedin.com/in/carlos-ulises-ochoa-51389215b/"><img src="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/english_version/project%20images/li.png?raw=true" width="70"></a> <a href="http://twitter.com/UliGibson"><img src="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/english_version/project%20images/tw.png?raw=true" width="70"></a> <a href="mailto:uligibson@hotmail.com"><img src="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/english_version/project%20images/outlook.png?raw=true" width="70"></a>
+
+<br>
 <br>
 
 ## Donate
+
 Buy me a coffee
