@@ -83,7 +83,7 @@ public class Principal extends javax.swing.JFrame {
     private void setEstadoJuego(String estado) // Si el estado no es "activo" los hilos son suspendidos
     {
         if(estado.equals("activo")) {
-            lbl_Estado.setText("Ruleta activa ***");
+            lbl_Estado.setText("Playing! ***");
             lbl_Estado.setForeground(new Color(67,169,225));
             setEstadoHilos(true);
             btn_Iniciar.setEnabled(false);
