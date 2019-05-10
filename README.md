@@ -1,46 +1,38 @@
-# Roulette game made with Java & SQLite
+# Juego de ruleta de imagenes creado con Java & SQLite
 
-A simple game similar to slot machine
+Un simple juego similar al de las maquinas tragamonedas
 
-PD: This program is written in spanish, english translation will be available soon. You can translate it easily because it has very little text
+Nota: Este juego dispone de dos idiomas, español e ingles
 
 <br/>
+
+### <b>English version</b>
+<a href="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite" target="_BLANK">Clic here</a>
+
+<br/>
+
+## Como jugar
+
 <p align="center">
-<img width="480" height="410" src="https://raw.githubusercontent.com/CarlosUlisesOchoa/Juego-ruleta-de-imagenes-java-sqlite/master/project%20images/pic-game%20(3).png" alt="Interfaz principal" />
+<img width="566" height="474" src="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/spanish_version/project%20images/funcionamiento.gif?raw=true" alt="Interfaz principal" />
 </p> <br/>
 
+
+<h3>Resultado del juego si tienes suerte</h3>
+
 <p align="center">
-<img width="480" height="410" src="https://raw.githubusercontent.com/CarlosUlisesOchoa/Juego-ruleta-de-imagenes-java-sqlite/master/project%20images/pic-game%20(4).png" />
-</p>
-
-<br/>
-<p align="center">
-<img width="480" height="410" src="https://raw.githubusercontent.com/CarlosUlisesOchoa/Juego-ruleta-de-imagenes-java-sqlite/master/project%20images/pictures-game.gif" />
-</p> <br/>
-
-<h3>Results</h3>
-
-<br/>
-<p align="center">
-<img width="480" height="410" src="https://raw.githubusercontent.com/CarlosUlisesOchoa/Juego-ruleta-de-imagenes-java-sqlite/master/project%20images/pic-game%20(1).png" />
-</p> <br/>
-
-<h3>If you are lucky</h3>
-
-<br/>
-<p align="center">
-<img width="480" height="410" src="https://raw.githubusercontent.com/CarlosUlisesOchoa/Juego-ruleta-de-imagenes-java-sqlite/master/project%20images/pic-game%20(2).png" />
+<img width="480" height="410" src="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/spanish_version/project%20images/ganas.png?raw=true" />
 </p> <br/>
 
 
 
-# About developer
 
-Visit my website [Carlos Ulises](http://www.carlosulises.ml)
+# Acerca del desarrollador
+
+Visita mi página web [Carlos Ulises](http://www.carlosulises.ml)
 
 <p align="center">
 <a href="http://www.carlosulises.ml" target="_BLANK">
-<img width="85%" height="85%" src="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/master/project%20images/dev.jpg?raw=true" />
+<img width="85%" height="85%" src="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/spanish_version/project%20images/dev-es.jpg?raw=true" />
 </a>
 </p>
-
