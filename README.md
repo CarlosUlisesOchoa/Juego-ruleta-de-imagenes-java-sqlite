@@ -1,5 +1,11 @@
 <h1 align="center"> Roulette game [Java & SQLite] </h1>
 
+<p align="center">
+  <a href="#!"><img src="https://img.shields.io/badge/version-1.0.4-green.svg"></a>
+  <a href="#!"><img src="https://img.shields.io/badge/Contributors-0-blue.svg?style=flat-square"></a>
+  <a href="#!"><img src="https://img.shields.io/badge/License-MIT-orange.svg?style=flat-square"></a>
+</p>
+
 <p align="left">
 A simple game similar to slot machine <br>
 PD: This game has two languages availables: spanish and english
@@ -16,19 +22,15 @@ PD: This game has two languages availables: spanish and english
 - [Introduction](#introduction)
 - [Features](#features)
 - [Build with](#build-with)
-- [How to play](#howtoplay)
+- [How to play](#how-to-play)
 - [License](#license)
-- [About developer](#about)
+- [About developer](#about-developer)
 - [Donate](#donate)
 
 ---
 <br>
 
 ## Introduction
-
-[![Current Version](https://img.shields.io/badge/version-1.0.4-green.svg)](https://github.com/JoseJesusOchoaTorres/portfolio) 
-[![Contributors](https://img.shields.io/badge/Contributors-0-blue.svg?style=flat-square)](./CONTRIBUTORS.md)
-[![License](https://img.shields.io/badge/License-MIT-orange.svg?style=flat-square)](https://github.com/JoseJesusOchoaTorres/portfolio/pulls)
 
 This simple game was developed as a school project, I publish it in case it serves to someone
 
