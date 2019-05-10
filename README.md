@@ -1,38 +1,94 @@
-# Juego de ruleta de imagenes creado con Java & SQLite
+<h1 align="center"> Juego de imágenes [Java & SQLite] </h1>
 
-Un simple juego similar al de las maquinas tragamonedas
+<p align="center">
+  <a href="#!"><img src="https://img.shields.io/badge/Version-1.0.4-green.svg"></a>
+  <a href="#!"><img src="https://img.shields.io/badge/Contribuidores-0-blue.svg?style=flat-square"></a>
+  <a href="#!"><img src="https://img.shields.io/badge/Licencia-MIT-orange.svg?style=flat-square"></a>
+</p>
 
-Nota: Este juego dispone de dos idiomas, español e ingles
+<p align="left">
+Un simple juego similar al de la máquina tragamonedas <br>
+PD: Este juego está disponible en dos idiomas: * inglés y español *
+</p> 
 
-<br/>
+<br>
 
-### <b>English version</b>
-<a href="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite" target="_BLANK">Clic here</a>
+#### <a href="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite" target="_BLANK">----> English version <------</a>
 
-<br/>
+<br>
+
+## Tabla de contenido
+
+- [Introducción](#introduccion)
+- [Características](#caracteristicas)
+- [Desarrollado con](#desarrollado-con)
+- [Como jugar](#como-jugar)
+- [Licencia](#licencia)
+- [Acerca del desarrollador](#acerca-del-desarrollador)
+- [Donar](#donar)
+
+---
+<br>
+
+## Introduccion
+
+Este es un simple juego creado como proyecto escolar, lo hago público por si a alguien le llega a servir
+
+<br>
+
+## Caracteristicas
+
+Como mencioné con anterioridad, es un simple juego, cuenta con estas características
+
+* Puedes apostar todo el dinero que quieras, siempre y cuando cuentes con el.
+* La máquina podrá aceptar tu apuesta solo si ella también cuenta con el dinero suficiente para pagarte en caso de que ganes
+* Si ganas, el dinero se te será pagado inmediatamente
+* Puedes descargar la versión en inglés o en español
+
+<br>
+
+## Desarrollado con
+
+#### NetBeans IDE
+
+* Java
+
+
+#### Base de datos
+
+* SQLite
+
+<br>
 
 ## Como jugar
 
-<p align="center">
-<img width="566" height="474" src="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/spanish_version/project%20images/funcionamiento.gif?raw=true" alt="Interfaz principal" />
-</p> <br/>
+![Como jugar](https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/spanish_version/project%20images/funcionamiento.gif?raw=true "Como jugar")
 
+<br>
 
-<h3>Resultado del juego si tienes suerte</h3>
+## Licencia
 
-<p align="center">
-<img width="480" height="410" src="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/spanish_version/project%20images/ganas.png?raw=true" />
-</p> <br/>
+Este proyecto se encuentra bajo los términos de la [Licencia MIT](./LICENSE.md).
 
+<br>
 
-
-
-# Acerca del desarrollador
+## Acerca del desarrollador
 
 Visita mi página web [Carlos Ulises](http://www.carlosulises.ml)
 
-<p align="center">
 <a href="http://www.carlosulises.ml" target="_BLANK">
 <img width="85%" height="85%" src="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/spanish_version/project%20images/dev-es.jpg?raw=true" />
 </a>
-</p>
+
+<br>
+
+#### Mis redes sociales
+
+<a href="https://www.facebook.com/UliGibson"><img src="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/english_version/project%20images/fb.png?raw=true" width="70"></a> <a href="https://www.linkedin.com/in/carlos-ulises-ochoa-51389215b/"><img src="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/english_version/project%20images/li.png?raw=true" width="70"></a> <a href="http://twitter.com/UliGibson"><img src="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/english_version/project%20images/tw.png?raw=true" width="70"></a> <a href="mailto:uligibson@hotmail.com"><img src="https://github.com/CarlosUlisesOchoa/Roulette-pictures-game-Java-SQLite/blob/english_version/project%20images/outlook.png?raw=true" width="70"></a>
+
+<br>
+<br>
+
+## Donar
+
+¡ Invítame un café !
