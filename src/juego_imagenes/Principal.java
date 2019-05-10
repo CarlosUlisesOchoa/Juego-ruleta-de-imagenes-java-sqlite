@@ -92,7 +92,7 @@ public class Principal extends javax.swing.JFrame {
             btn_Cancelar.setEnabled(true);
         }
         if(estado.equals("listo")) {
-            lbl_Estado.setText("Juego no iniciado");
+            lbl_Estado.setText("Game is not started");
             lbl_Estado.setForeground(new Color(117, 117, 117));
             btn_Iniciar.setEnabled(true);
             btn_Cancelar.setEnabled(false);
@@ -106,13 +106,13 @@ public class Principal extends javax.swing.JFrame {
         }
         if(estado.equals("nuevo")) {
             lbl_Repetir_Juego.setVisible(false);
-            lbl_Estado.setText("Juego no iniciado");
+            lbl_Estado.setText("Game is not started");
             lbl_Estado.setForeground(new Color(117,117,117));
             btn_Iniciar.setEnabled(false);
             btn_Cancelar.setEnabled(false);
             btn_Terminar.setEnabled(false);
             btn_Apostar.setEnabled(true);
-            btn_Cancelar.setText("Cancelar");
+            btn_Cancelar.setText("Cancel");
             setDinero("apostado", 0);
             setEstadoHilos(false);
             for(JLabel img : img_Principal) {
@@ -130,21 +130,21 @@ public class Principal extends javax.swing.JFrame {
             lbl_AzarMouseClicked(null);
         }
         if(estado.equals("ganado")) {
-            lbl_Estado.setText("¡¡ GANAS !!");
+            lbl_Estado.setText("YOU WON !!");
             lbl_Estado.setForeground(new Color(47,173,66));
             setDinero("usuario", dinero_Usuario+dinero_Apostado);
             setDinero("maquina", dinero_Maquina-dinero_Apostado);
             btn_Terminar.setEnabled(false);
-            btn_Cancelar.setText("Nuevo juego");
+            btn_Cancelar.setText("New game");
             lbl_Repetir_Juego.setVisible(true);
         }
         if(estado.equals("perdido")) {
-            lbl_Estado.setText("¡¡ PIERDES !!");
+            lbl_Estado.setText("YOU LOST !!");
             lbl_Estado.setForeground(Color.red);
             setDinero("usuario", dinero_Usuario-dinero_Apostado);
             setDinero("maquina", dinero_Maquina+dinero_Apostado);
             btn_Terminar.setEnabled(false);
-            btn_Cancelar.setText("Nuevo juego");
+            btn_Cancelar.setText("New game");
             if(dinero_Usuario >= dinero_Apostado) lbl_Repetir_Juego.setVisible(true);
         }
         estado_Juego = estado;
@@ -347,14 +347,14 @@ public class Principal extends javax.swing.JFrame {
 
         jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        btn_Apostar.setText("Apostar");
+        btn_Apostar.setText("Bet");
         btn_Apostar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_ApostarActionPerformed(evt);
             }
         });
 
-        btn_Iniciar.setText("Iniciar");
+        btn_Iniciar.setText("Start");
         btn_Iniciar.setEnabled(false);
         btn_Iniciar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -362,7 +362,7 @@ public class Principal extends javax.swing.JFrame {
             }
         });
 
-        btn_Cancelar.setText("Cancelar");
+        btn_Cancelar.setText("Cancel");
         btn_Cancelar.setEnabled(false);
         btn_Cancelar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -370,7 +370,7 @@ public class Principal extends javax.swing.JFrame {
             }
         });
 
-        btn_Terminar.setText("Terminar");
+        btn_Terminar.setText("Finish");
         btn_Terminar.setEnabled(false);
         btn_Terminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -380,7 +380,7 @@ public class Principal extends javax.swing.JFrame {
 
         lbl_Repetir_Juego.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         lbl_Repetir_Juego.setForeground(new java.awt.Color(0, 153, 255));
-        lbl_Repetir_Juego.setText("Jugar igual de nuevo");
+        lbl_Repetir_Juego.setText("Play again");
         lbl_Repetir_Juego.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         lbl_Repetir_Juego.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -704,21 +704,21 @@ public class Principal extends javax.swing.JFrame {
         jScrollPane1.setViewportView(Panel_Mini_Imgs);
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
-        jLabel1.setText("AVISO:");
+        jLabel1.setText("STATUS:");
 
         lbl_Estado.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         lbl_Estado.setForeground(new java.awt.Color(117, 117, 117));
-        lbl_Estado.setText("Juego no iniciado");
+        lbl_Estado.setText("Game is not started");
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/titulo.png"))); // NOI18N
 
         jLabel5.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        jLabel5.setText("APOSTADO:");
+        jLabel5.setText("BETTING:");
 
         jLabel6.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel6.setText("DINERO EN MAQUINA:");
+        jLabel6.setText("Machine Cash:");
 
         lbl_Dinero_Maquina.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         lbl_Dinero_Maquina.setForeground(new java.awt.Color(76, 177, 106));
@@ -734,13 +734,13 @@ public class Principal extends javax.swing.JFrame {
         lbl_Dinero_Usuario.setText("$0.00");
 
         jLabel10.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel10.setText("TU DINERO:");
+        jLabel10.setText("Your Money:");
 
         checkBox_Hack.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        checkBox_Hack.setText(" MODO HACK");
+        checkBox_Hack.setText("HACK MODE");
 
         lbl_Azar.setForeground(new java.awt.Color(51, 153, 255));
-        lbl_Azar.setText("<html><p><u>Selecciona al azar</u></p></html>");
+        lbl_Azar.setText("<html><p><u>Random select</u></p></html>");
         lbl_Azar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         lbl_Azar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -749,7 +749,7 @@ public class Principal extends javax.swing.JFrame {
         });
 
         lbl_Deseleccionar.setForeground(new java.awt.Color(51, 153, 255));
-        lbl_Deseleccionar.setText("<html><p><u>Deseleccionar</u></p></html>");
+        lbl_Deseleccionar.setText("<html><p><u>Deselect all</u></p></html>");
         lbl_Deseleccionar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         lbl_Deseleccionar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -759,7 +759,7 @@ public class Principal extends javax.swing.JFrame {
 
         jMenuBar1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
 
-        jMenu2.setText("Acerca de");
+        jMenu2.setText("About");
         jMenu2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jMenu2MouseClicked(evt);
@@ -781,7 +781,7 @@ public class Principal extends javax.swing.JFrame {
                         .addComponent(jLabel6)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(lbl_Dinero_Maquina)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 111, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 189, Short.MAX_VALUE)
                         .addComponent(checkBox_Hack)
                         .addGap(123, 123, 123)
                         .addComponent(jLabel10)
@@ -863,8 +863,8 @@ public class Principal extends javax.swing.JFrame {
             
                 Integer apuesta = Dialogs.getInt(String.format
                     (
-                        "Ingresa la cantidad que deseas apostar\n\n"
-                      + "Actualmente cuentas con $%d.00\n\n ", dinero_Usuario
+                        "How much you want to bet?\n\n"
+                      + "You have $%d.00\n\n ", dinero_Usuario
                     )
                 );
 
@@ -877,33 +877,33 @@ public class Principal extends javax.swing.JFrame {
                                 if(dinero_Maquina > 0) {
                                     Dialogs.ErrorMsg(String.format
                                         (
-                                            "Lo siento, ahora soy yo quien queda mal, no tengo esa cantidad :( \n\n"
-                                          + "Solo tengo $%d.00\n\n ", dinero_Maquina
+                                            "Sorry I don't own that money :( \n\n"
+                                          + "I just have $%d.00\n\n ", dinero_Maquina
                                         )
                                     );
                                 } else {
-                                    Dialogs.ErrorMsg("No se puede apostar, la maquina ya no cuenta con recursos...");
+                                    Dialogs.ErrorMsg("Machine doesn't have money...");
                                 }
                             }
                         } else {
-                            Dialogs.ErrorMsg("No me hagas perder el tiempo, debes apostar...");
+                            Dialogs.ErrorMsg("Don't waste my time dude, you gotta bet!...");
                         }
                     } else {
                         Dialogs.ErrorMsg(String.format
                             (
-                                "Solamente cuentas con $%d.00\n\n"
-                              + "Te faltarían $%d.00, si quieres apostar $%d.00\n\n ", dinero_Usuario, (apuesta-dinero_Usuario), apuesta
+                                "You only own $%d.00\n\n"
+                              + "You need aditional $%d.00, if you wanna bet $%d.00\n\n ", dinero_Usuario, (apuesta-dinero_Usuario), apuesta
                             )
                         );
                     }
                 } else {
-                    Dialogs.ErrorMsg("Comprueba la cantidad ingresada...\n\n ");
+                    Dialogs.ErrorMsg("Check entered amount...\n\n ");
                 }
             } else {
-                Dialogs.InfoMsg("No tienes ni una pelusa en el bolsillo jaja, consigue dinero y vuelve");
+                Dialogs.InfoMsg("You don't have money dude");
             }
         } else {
-            Dialogs.InfoMsg("Primero selecciona las imagenes a las que les quieres apostar");
+            Dialogs.InfoMsg("First you need to select your images");
         }
     }//GEN-LAST:event_btn_ApostarActionPerformed
 
@@ -918,7 +918,7 @@ public class Principal extends javax.swing.JFrame {
         }
         
         if(contador > imgs_Seleccionadas.length) {
-            Dialogs.InfoMsg("No puedes seleccionar más imagenes, el máximo es "+imgs_Seleccionadas.length);
+            Dialogs.InfoMsg("You cannot select more images, max is "+imgs_Seleccionadas.length);
             
         }
         
@@ -977,7 +977,7 @@ public class Principal extends javax.swing.JFrame {
     private void lbl_Repetir_JuegoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl_Repetir_JuegoMouseClicked
         // TODO add your handling code here:
         setEstadoJuego("activo");
-        btn_Cancelar.setText("Cancelar");
+        btn_Cancelar.setText("Cancel");
         lbl_Repetir_Juego.setVisible(false);
     }//GEN-LAST:event_lbl_Repetir_JuegoMouseClicked
 

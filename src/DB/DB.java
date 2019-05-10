@@ -73,7 +73,7 @@ public class DB {
             stmt = c.createStatement();
 
         } catch (ClassNotFoundException | SQLException e) {
-            Dialogs.ErrorMsg("No se pudo conectar a la base de datos\n\n" + e.toString());
+            Dialogs.ErrorMsg("Can't connect to DB\n\n" + e.toString());
             return false;
         }
         return true;

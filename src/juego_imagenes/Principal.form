@@ -11,7 +11,7 @@
       <SubComponents>
         <Menu class="javax.swing.JMenu" name="jMenu2">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Acerca de"/>
+            <Property name="text" type="java.lang.String" value="About"/>
           </Properties>
           <Events>
             <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jMenu2MouseClicked"/>
@@ -54,7 +54,7 @@
                       <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="lbl_Dinero_Maquina" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="111" max="32767" attributes="0"/>
+                      <EmptySpace pref="189" max="32767" attributes="0"/>
                       <Component id="checkBox_Hack" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="123" max="-2" attributes="0"/>
                       <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
@@ -274,7 +274,7 @@
       <SubComponents>
         <Component class="javax.swing.JButton" name="btn_Apostar">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Apostar"/>
+            <Property name="text" type="java.lang.String" value="Bet"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_ApostarActionPerformed"/>
@@ -282,7 +282,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="btn_Iniciar">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Iniciar"/>
+            <Property name="text" type="java.lang.String" value="Start"/>
             <Property name="enabled" type="boolean" value="false"/>
           </Properties>
           <Events>
@@ -291,7 +291,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="btn_Cancelar">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Cancelar"/>
+            <Property name="text" type="java.lang.String" value="Cancel"/>
             <Property name="enabled" type="boolean" value="false"/>
           </Properties>
           <Events>
@@ -300,7 +300,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="btn_Terminar">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Terminar"/>
+            <Property name="text" type="java.lang.String" value="Finish"/>
             <Property name="enabled" type="boolean" value="false"/>
           </Properties>
           <Events>
@@ -315,7 +315,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="99" red="0" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Jugar igual de nuevo"/>
+            <Property name="text" type="java.lang.String" value="Play again"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
               <Color id="Cursor de Mano"/>
             </Property>
@@ -723,7 +723,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Arial" size="24" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="AVISO:"/>
+        <Property name="text" type="java.lang.String" value="STATUS:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lbl_Estado">
@@ -734,7 +734,7 @@
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="75" green="75" red="75" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Juego no iniciado"/>
+        <Property name="text" type="java.lang.String" value="Game is not started"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
@@ -753,7 +753,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Arial" size="24" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="APOSTADO:"/>
+        <Property name="text" type="java.lang.String" value="BETTING:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
@@ -761,7 +761,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Arial" size="18" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="DINERO EN MAQUINA:"/>
+        <Property name="text" type="java.lang.String" value="Machine Cash:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lbl_Dinero_Maquina">
@@ -803,7 +803,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Arial" size="18" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="TU DINERO:"/>
+        <Property name="text" type="java.lang.String" value="Your Money:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JCheckBox" name="checkBox_Hack">
@@ -811,7 +811,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Arial" size="18" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value=" MODO HACK"/>
+        <Property name="text" type="java.lang.String" value="HACK MODE"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lbl_Azar">
@@ -819,7 +819,7 @@
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="99" red="33" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p&gt;&lt;u&gt;Selecciona al azar&lt;/u&gt;&lt;/p&gt;&lt;/html&gt;"/>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p&gt;&lt;u&gt;Random select&lt;/u&gt;&lt;/p&gt;&lt;/html&gt;"/>
         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
           <Color id="Cursor de Mano"/>
         </Property>
@@ -833,7 +833,7 @@
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="99" red="33" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p&gt;&lt;u&gt;Deseleccionar&lt;/u&gt;&lt;/p&gt;&lt;/html&gt;"/>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;p&gt;&lt;u&gt;Deselect all&lt;/u&gt;&lt;/p&gt;&lt;/html&gt;"/>
         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
           <Color id="Cursor de Mano"/>
         </Property>

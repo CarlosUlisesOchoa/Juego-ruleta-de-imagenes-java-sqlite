@@ -19,7 +19,7 @@ public class AcercaDe extends javax.swing.JFrame {
      */
     public AcercaDe() {
         initComponents();
-        setLang(0);
+        setLang(1);
     }
     
     private void setLang(int id) {
