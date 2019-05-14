@@ -1,14 +1,14 @@
 <h1 align="center"> Roulette game [Java & SQLite] </h1>
 
 <p align="center">
-  <a href="#!"><img src="https://img.shields.io/badge/version-1.0.4-green.svg"></a>
+  <a href="#!"><img src="https://img.shields.io/badge/Version-1.0.4-green.svg"></a>
   <a href="#!"><img src="https://img.shields.io/badge/Contributors-0-blue.svg?style=flat-square"></a>
   <a href="#!"><img src="https://img.shields.io/badge/License-MIT-orange.svg?style=flat-square"></a>
 </p>
 
 <p align="left">
 A simple game similar to slot machine <br>
-PD: This game has two languages availables: spanish and english
+PD: This game is available in two languages: spanish and english
 </p> 
 
 <br>
